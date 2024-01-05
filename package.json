@@ -1,0 +1,20 @@
+{
+  "name": "react-ssr",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch --hot dev.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
