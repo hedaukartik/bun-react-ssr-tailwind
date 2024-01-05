@@ -13,6 +13,7 @@ export function Layout(props: { title: string; children: React.ReactNode }) {
           content="Web site created using bun-react-ssr-base app"
         />
         <link rel="apple-touch-icon" href="/logo192.png" />
+        <link rel="stylesheet" href="/global.css"></link>
         <title>{props.title}</title>
       </head>
       <body>{props.children}</body>

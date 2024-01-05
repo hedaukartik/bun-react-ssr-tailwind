@@ -3,12 +3,18 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun --watch --hot dev.tsx"
+    "tw": "tailwindcss  --watch -i ./global.css -o ./public/global.css",
+    "dev": "bun --watch --hot dev.tsx",
+    "start": "concurrently \"bun:tw\" \"bun:dev\""
   },
   "devDependencies": {
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
-    "bun-types": "latest"
+    "autoprefixer": "^10.4.16",
+    "bun-types": "latest",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
