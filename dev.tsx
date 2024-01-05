@@ -1,3 +1,9 @@
+/*
+  This file is instrumental in the development process.
+  When the development server is active, it responds to incoming requests by rendering the corresponding page from the pages directory into static HTML. 
+  This HTML output includes a <script> tag that sources a bundled version of the hydrate.tsx file
+*/
+
 import * as path from "path";
 import { statSync } from "fs";
 import type { ServeOptions } from "bun";
