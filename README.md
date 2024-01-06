@@ -1,4 +1,10 @@
-# react-ssr
+# bun-react-ssr-tailwind
+
+To use this template to start new react ssr tailwind project from scratch:
+
+```bash
+bun create https://github.com/hedaukartik/bun-react-ssr-tailwind mydir
+```
 
 To install dependencies:
 

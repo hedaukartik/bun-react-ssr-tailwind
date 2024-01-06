@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "tw": "tailwindcss  --watch -i ./global.css -o ./.build/global.css",
-    "dev": "bun --watch --hot dev.tsx",
-    "start": "concurrently \"bun:tw\" \"bun:dev\""
+    "start": "bun --watch --hot dev.tsx",
+    "dev": "concurrently \"bun:tw\" \"bun:dev\""
   },
   "devDependencies": {
     "@types/react": "^18.2.46",
