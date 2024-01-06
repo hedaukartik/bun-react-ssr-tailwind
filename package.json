@@ -5,7 +5,7 @@
   "scripts": {
     "tw": "tailwindcss  --watch -i ./global.css -o ./.build/global.css",
     "start": "bun --watch --hot dev.tsx",
-    "dev": "concurrently \"bun:tw\" \"bun:dev\""
+    "dev": "concurrently \"bun:tw\" \"bun:start\""
   },
   "devDependencies": {
     "@types/react": "^18.2.46",
