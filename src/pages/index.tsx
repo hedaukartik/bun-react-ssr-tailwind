@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Layout } from "../common/layout";
-import Button from "../common/components/button";
+import Button from "@components/button";
+import { Layout } from "@components/layout";
 
 export default function () {
   const [count, setCount] = useState(0);
